@@ -3,7 +3,7 @@ import logo from "./assets/logo.svg";
 function Logo(props) {
     return (
         <div className="logo">
-            <img src={logo}/>
+            <img src={logo} alt=""/>
         </div>
     );
 }

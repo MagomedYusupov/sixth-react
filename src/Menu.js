@@ -5,19 +5,19 @@ function Menu(props) {
         <div className="menu">
             <ul>
                 <li>
-                    <a href="#"> ОДЕЖДА</a>
+                    <a href="#/clothes"> ОДЕЖДА</a>
                 </li>
                 <li>
-                    <a href="#"> ДЕТЯМ</a>
+                    <a href="#/kids"> ДЕТЯМ</a>
                 </li>
                 <li>
-                    <a href="#"> КНИГИ</a>
+                    <a href="#/books"> КНИГИ</a>
                 </li>
                 <li>
-                    <a href="#">  КОМПЬЮТЕРЫ</a>
+                    <a href="#/computers">  КОМПЬЮТЕРЫ</a>
                 </li>
                 <li>
-                    <a href="#"> КОНТАКТЫ</a>
+                    <a href="#/contacts"> КОНТАКТЫ</a>
                 </li>
             </ul>
         </div>

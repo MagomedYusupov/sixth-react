@@ -8,8 +8,8 @@ function Header(props) {
         <div className="header">
             <Logo/>
             <Menu/>
-            <Checkout/>
-            <a href="#" className="logout">выход</a>
+            <Checkout dataBase={props.dataBase}/>
+            <a href="#/logout" className="logout">выход</a>
         </div>
     );
 }

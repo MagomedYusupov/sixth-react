@@ -9,8 +9,9 @@ function Card(props) {
             </div>
             <div className="card-info">
                 <div className="card-name">{props.product.name}</div>
+                <div>*****</div>
                 <div className="card-price">{props.product.price} ₽</div>
-                <Button/>
+                <Button id={props.product.id} bought={props.product.bought} setBought={props.setBought}/>
             </div>
         </div>
 

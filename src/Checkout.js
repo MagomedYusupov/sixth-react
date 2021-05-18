@@ -2,12 +2,18 @@ import React from 'react';
 import cart from "./assets/cart.svg"
 
 function Chekout(props) {
+    const Buy = props.dataBase.filter((item)=>{
+        return item.bought === true;
+
+    })
+
     return (
+
             <div className="checkout">
-                <a href="#">
-                    <img src={cart}/>
-                    <span className="counter">0</span>
-                </a>
+
+                    <img src={cart} alt=""/>
+                    <span className="counter">{Buy.length}</span>
+
             </div>
     );
 }
