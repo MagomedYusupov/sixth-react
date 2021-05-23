@@ -82,7 +82,7 @@ function App() {
 
     const setBought = (id)=>{
       const newDataBase= dataBase.map((product,index)=>{
-          if (index+1 === id){
+          if (index === id-1){
               return {
                   ...product,
               bought: !product.bought}
